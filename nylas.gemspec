@@ -3,7 +3,7 @@
 require "./gem_config"
 
 Gem::Specification.new do |gem|
-  GemConfig.apply(gem, "nylas")
+  GemConfig.apply(gem, "nylas-v5")
   gem.summary = %(Gem for interacting with the Nylas API)
   gem.description = %(Gem for interacting with the Nylas API.)
   gem.add_runtime_dependency "eventmachine", "~> 1.2.7"
