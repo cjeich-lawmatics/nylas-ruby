@@ -19,13 +19,13 @@ Gemspec/RequiredRubyVersion:
 # Configuration parameters: EmptyLineBetweenMethodDefs, EmptyLineBetweenClassDefs, EmptyLineBetweenModuleDefs, AllowAdjacentOneLineDefs, NumberOfEmptyLines.
 Layout/EmptyLineBetweenDefs:
   Exclude:
-    - 'lib/nylas/errors.rb'
+    - 'lib/nylas_v5/errors.rb'
 
 # Offense count: 1
 # Configuration parameters: AllowComments, AllowNil.
 Lint/SuppressedException:
   Exclude:
-    - 'lib/nylas/logging.rb'
+    - 'lib/nylas_v5/logging.rb'
 
 # Offense count: 1
 # Configuration parameters: IgnoredMethods.
@@ -62,8 +62,8 @@ RSpec/StubbedMock:
 # SupportedStyles: separated, grouped
 Style/AccessorGrouping:
   Exclude:
-    - 'lib/nylas/errors.rb'
-    - 'lib/nylas/http_client.rb'
+    - 'lib/nylas_v5/errors.rb'
+    - 'lib/nylas_v5/http_client.rb'
 
 # Offense count: 1
 # Configuration parameters: AllowedConstants.
@@ -71,39 +71,39 @@ Style/Documentation:
   Exclude:
     - 'spec/**/*'
     - 'test/**/*'
-    - 'lib/nylas/http_client.rb'
-    - 'lib/nylas/when.rb'
+    - 'lib/nylas_v5/http_client.rb'
+    - 'lib/nylas_v5/when.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/ExplicitBlockArgument:
   Exclude:
-    - 'lib/nylas/collection.rb'
+    - 'lib/nylas_v5/collection.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/GlobalStdStream:
   Exclude:
-    - 'lib/nylas/logging.rb'
+    - 'lib/nylas_v5/logging.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/IfUnlessModifier:
   Exclude:
-    - 'lib/nylas/model/attributable.rb'
+    - 'lib/nylas_v5/model/attributable.rb'
 
 # Offense count: 2
 # Cop supports --auto-correct.
 Style/KeywordParametersOrder:
   Exclude:
-    - 'lib/nylas/http_client.rb'
-    - 'lib/nylas/model.rb'
+    - 'lib/nylas_v5/http_client.rb'
+    - 'lib/nylas_v5/model.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
 Style/RedundantAssignment:
   Exclude:
-    - 'lib/nylas/model.rb'
+    - 'lib/nylas_v5/model.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.
@@ -115,7 +115,7 @@ Style/RedundantBegin:
 # Cop supports --auto-correct.
 Style/RedundantSelf:
   Exclude:
-    - 'lib/nylas/message.rb'
+    - 'lib/nylas_v5/message.rb'
 
 # Offense count: 1
 # Cop supports --auto-correct.

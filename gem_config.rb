@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-require "./lib/nylas/version"
+require "./lib/nylas_v5/version"
 
 # Consistently apply nylas' standard gem data across gems
 module GemConfig
-  def self.apply(gem, name)
+  def self.apply(gem,name)
     gem.name = name
     gem.files = Dir.glob("lib/{#{name}.rb,#{name}/**/*.rb}")
     gem.license = "MIT"
-    gem.version = Nylas::VERSION
+    gem.version = NylasV5::VERSION
     gem.platform = "ruby"
     gem.required_ruby_version = ">= 2.3"
     append_nylas_data(gem)
