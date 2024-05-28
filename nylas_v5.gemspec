@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require 'pry'
 require "./gem_config"
 
 Gem::Specification.new do |gem|
